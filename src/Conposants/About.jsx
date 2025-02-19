@@ -1,6 +1,6 @@
 import React from "react";
 
-import image from "../Assets/AE5A9926.jpg";
+import image from "../Assets/AE5A9926.webp";
 
 const About = () => {
   

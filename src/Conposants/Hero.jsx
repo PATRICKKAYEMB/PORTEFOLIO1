@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import background from "../Assets/tech.jpg";
+import background from "../Assets/tech.webp";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
@@ -55,7 +55,7 @@ const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.3 });
           <div className="text-center text-white mt-10 z-10">
             <div className="max-w-[90%] md:max-w-[80%] text-center mb-8">
               <h1 className="text-xl md:text-4xl font-semibold text-white break-words">
-                <span className="text-indigo-400">{text}</span>
+                <span className="text-white">{text}</span>
                 <span className="animate-blink">|</span>
               </h1>
             </div>
