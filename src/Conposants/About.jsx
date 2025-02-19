@@ -42,7 +42,7 @@ const About = () => {
                                 <span class="text-gray-700">80%</span>
                             </div>
                             <div class="w-full bg-gray-200 rounded-full h-2">
-                                <div class="bg-indigo-600 h-2 rounded-full" ></div>
+                                
                                 <div class="bg-indigo-600 h-2 rounded-full"  style={{width:"80%"}}></div>
                             </div>
                         </div>
